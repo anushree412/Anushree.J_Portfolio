@@ -27,6 +27,7 @@ body{
     background-size: cover;
     background-repeat:repeat-y;
     font-family: 'Poppins',sans-serif;
+    height: 100%;
 }
 
 .myline{
@@ -146,6 +147,27 @@ align-items: center;
     color: #4e0946;
 }
 
+/* footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 0px;
+} */
+
+/* html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* main {
+    flex: 1; /* This pushes the footer to the bottom */
+/* } */
+
+
 
 
 
@@ -232,13 +254,14 @@ align-items: center;
 }
 .about_body{
     font-size: 10px;
-    width: 80%;
+    width: 60%;
     margin-bottom:20px ;
 }
 
 .myline{
     font-size: 10px;
-    margin-bottom:20px 
+    margin-bottom:60px ;
+    width: 60%;
 }
 
 
