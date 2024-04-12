@@ -203,6 +203,10 @@ align-items: center;
 
 @media screen and (max-width: 712px) {
 
+    .left img{
+        height: 40px;
+    }
+
 
     .work_title h2{
         display: flex;
@@ -296,6 +300,18 @@ align-items: center;
 
 .work_pic-verysmallscreen{
     display: none;
+}
+
+
+.ft1{
+    height: 30px;
+    font-size: 15px;
+}
+
+
+.ft2{
+    height: 30px;
+    font-size: 8px;
 }
 
 } 

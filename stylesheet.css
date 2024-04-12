@@ -201,8 +201,8 @@ align-items: center;
             background-color: rgb(153, 76, 153);
             border-radius: 100%;
             border: 4px solid rgb(153, 76, 153);
-            box-shadow:
-            0 10px 40px rgb(153, 76, 153);;
+            /* box-shadow:
+            0 10px 40px rgb(153, 76, 153);; */
         }
 
         .rightsec_bigsec img:hover{
@@ -295,6 +295,29 @@ align-items: center;
     text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /***************************** Media query for screens smaller than 768px***************************/
 @media screen and (max-width: 767px) {
 
@@ -315,8 +338,7 @@ align-items: center;
         background-color:rgb(153, 76, 153);
         border-radius: 100%;
         border: 4px solid rgb(102, 52, 102);
-        box-shadow:
-        0 10px 27px rgb(153, 76, 153);
+        
     }
 
     .rightsec_smallsec img:hover{
@@ -459,3 +481,11 @@ align-items: center;
 
 
 
+/* ///////////////////////////new index//////////////////////// */
+
+.rightBox{
+    width:20%;
+    height: 50%;
+    margin: 20px;
+    background-color: #53236077;
+}
