@@ -1,7 +1,28 @@
 /******************************ABOUT ME********************************/
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
+}
+
+body {
+    min-height: 100vh; /* Ensure body covers the viewport height */
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("interest_bg.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+/* Other CSS rules remain unchanged */
+
+footer {
+    margin-top: auto; /* Push footer to the bottom */
+    width: 100%;
+    color: #4e0946;
+    text-align: center;
+    /* padding: 20px 0; */
+    flex-shrink: 0; /* Prevent footer from shrinking */
 }
 
 #about{
@@ -22,13 +43,6 @@
     font-family: 'Poppins',sans-serif;
 }
 
-body{
-    background-image: url("interest_bg.png");
-    background-size: cover;
-    background-repeat:repeat-y;
-    font-family: 'Poppins',sans-serif;
-    height: 100%;
-}
 
 .myline{
     margin-top: 25px;
@@ -147,25 +161,6 @@ align-items: center;
     color: #4e0946;
 }
 
-/* footer {
-    text-align: center;
-    padding: 20px 0;
-    margin-bottom: 0px;
-} */
-
-/* html, body {
-    height: 100%;
-    margin: 0;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-} */
-
-/* main {
-    flex: 1; /* This pushes the footer to the bottom */
-/* } */
 
 
 
@@ -239,14 +234,14 @@ body {
         margin-right: 20px;
     }
 
-.footer {
+/* .footer {
     height: auto;
 }
 
 .footer {
     flex-direction: column;
     align-items: center;
-}
+} */
 
 
 #about{
