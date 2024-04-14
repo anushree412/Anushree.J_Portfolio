@@ -429,7 +429,14 @@ display:none}
     display:none;
 }
 
-
+footer {
+    margin-top: auto; /* Push footer to the bottom */
+    width: 100%;
+    color: #4e0946;
+    text-align: center;
+    /* padding: 20px 0; */
+    flex-shrink: 0; /* Prevent footer from shrinking */
+}
 
 /***************************** Media query for screens smaller than 768px***************************/
 /***************************** Media query for screens smaller than 768px***************************/
