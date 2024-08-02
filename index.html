@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +10,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
@@ -20,200 +18,155 @@
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="home.css">
-    </link>
 </head>
-
-
-
-
 
 <body>
 
     <div class="navbar">
-
         <div class="left"><img src="anaku_logo-2.png" alt="" height="50"></div>
         <div class="right">
             <ul>
-                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="project.html" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
                 <li class="nav-item"><a href="interest.html" class="nav-link">Blog</a></li>
-                <li class="nav-item"><a href="services.html" class="nav-link">Contact Me</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact Me</a></li>
             </ul>
         </div>
-
         <div class="burger">
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
         </div>
-
         <script src="hamburger.js"></script>
     </div>
 
-
-
-
-
     <main>  
-        <div class="big">    
-        <section class="firstsec">
-
-            <div class="rightsec_smallsec">
-                <div class="profile"><img src="Anu12.jpeg" alt="">
-                </div>
-                
-            </div>
-
-            <div class="leftsec">Hey there, I am  
-                <span id="name">Anushree!</span>
-                Welcome to my digital playground where I blend my love for <span id="element"></span>
-
-
-                <!-- this is for smalll screen --> 
-                <div class="smallScreen">
-                    <div class="btn">
-                        <button type="submit" class="btn-1"><a href="Anushree_resume_updated.pdf" target="_blank">Download CV</a></button>
-                        <button type="submit" class="btn-2"><a href="services.html" target="_blank">Contact Me</a></button>
-                    </div>
-    
-                    <div class="social">
-                        <a href="https://github.com/anushree412" class="github"><i class="fab fa-github fa-2x"></i></a>
-                        <a href="https://www.linkedin.com/in/anushree-jagadeesh1" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a>
-                        <a href="https://www.instagram.com/art_archive_412/" class="instagram"><i class="fab fa-instagram fa-2x"></i></a>
+        <div class="big" id="home">    
+            <section class="firstsec">
+                <div class="rightsec_smallsec">
+                    <div class="profile"><img src="Anu12.jpeg" alt="">
                     </div>
                 </div>
-            
+                <div class="leftsec">Hey there, I am  
+                    <span id="name">Anushree!</span>
+                    Welcome to my digital playground where I blend my love for <span id="element"></span>
+                    <!-- this is for small screen --> 
+                    <div class="smallScreen">
+                        <div class="btn">
+                            <button type="submit" class="btn-1"><a href="Anushree_resume_updated.pdf" target="_blank">Download CV</a></button>
+                            <button type="submit" class="btn-2"><a href="services.html" target="_blank">Contact Me</a></button>
+                        </div>
+                        <div class="social">
+                            <a href="https://github.com/anushree412" class="github"><i class="fab fa-github fa-2x"></i></a>
+                            <a href="https://www.linkedin.com/in/anushree-jagadeesh1" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a>
+                            <a href="https://www.instagram.com/art_archive_412/" class="instagram"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="skills">Tech Stack:</div>
+                        <br>
+                        <div class="skill-list">
+                            <ul>
+                                <li id="skill-logo">JAVA<img src="/logos/java.png" height=30px> </li>
+                                <li id="skill-logo">HTML<img src="/logos/html.png" height=30px></li>
+                                <li id="skill-logo">CSS<img src="/logos/css.png" height=30px></li>
+                                <li id="skill-logo">JavaScript<img src="/logos/javascript.png" height=30px></li>
+                                <li id="skill-logo">ReactJs<img src="/logos/react.png" height=30px></li>
+                                <li id="skill-logo">SQL<img src="/logos/sql.png" height=30px></li>
+                                <li id="skill-logo">MongoDB<img src="/logos/mongo-db.png" height=30px></li>
+                                <li id="skill-logo">Bootstrap<img src="/logos/bootstrap.png" height=30px></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-
-            
-
-
-
+                <div class="rightsec_bigsec">
+                    <div class="smallPic">
+                        <img src="Anu12.jpeg" alt="" height="150">
+                    </div>
+                    <div class="rightBoxImg">
+                        <img src="Anu12.jpeg" alt="" height="150">
+                    </div>
+                    <div class="rightBox">
+                        <p id="follow">Anushree J</p>
+                        <div class="social">
+                            <a href="https://github.com/anushree412" class="github"><i class="fab fa-github fa-lg"></i></a>
+                            <a href="https://www.linkedin.com/in/anushree-jagadeesh1" class="linkedin"><i class="fab fa-linkedin fa-lg"></i></a>
+                            <a href="https://www.instagram.com/art_archive_412/" class="instagram"><i class="fab fa-instagram fa-lg"></i></a>
+                        </div>
+                        <div class="rightboxSmall">
+                            <div class="Intro">
+                                <div class="intro-logo"><i class="fas fa-envelope fa-lg"></i></div>
+                                <div class="Intro-inside">
+                                    <div class="IntroTitle">Email: </div>
+                                    <div class="IntroContent">anushreej412@gmail.com</div>
+                                </div>
+                            </div>
+                            <div class="Intro">
+                                <div class="intro-logo"><i class="fas fa-map-marker-alt fa-lg"></i></div>
+                                <div class="Intro-inside">
+                                    <div class="IntroTitle">Location: </div>
+                                    <div class="IntroContent">Bengaluru, Karnataka</div>
+                                </div>
+                            </div>
+                            <div class="Intro">
+                                <div class="intro-logo"><i class="fas fa-birthday-cake fa-lg"></i></div>
+                                <div class="Intro-inside">
+                                    <div class="IntroTitle">Birthday: </div>
+                                    <div class="IntroContent">4th December 2002</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <button type="submit"><a href="Anushree_resume_updated.pdf" target="_blank">Download CV</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="secondsec">
+            <section class="secondsec" id="education">
                 <div>
-                    <div class="skills">Tech Stack:</div>
-                    <br>
-                    <div class="skill-list">
-                        <ul>
-                            <li id="skill-logo">JAVA<img src="/logos/java.png" height=30px> </li>
-                            <li id="skill-logo">HTML<img src="/logos/html.png" height=30px></li>
-                            <li id="skill-logo">CSS<img src="/logos/css.png" height=30px></li>
-                            <li id="skill-logo">JavaScript<img src="/logos/javascript.png" height=30px></li>
-                            <li id="skill-logo">ReactJs<img src="/logos/react.png" height=30px></li>
-                            <li id="skill-logo">SQL<img src="/logos/sql.png" height=30px></li>
-                            <li id="skill-logo">MongoDB<img src="/logos/mongo-db.png" height=30px></li>
-                            <li id="skill-logo">Bootstrap<img src="/logos/bootstrap.png" height=30px></li>
-                        </ul>
-                    </div>
-
+                <iframe src="education.html" frameborder="0" style="width: 100%; height: 700px;"></iframe>
                 </div>
-            </div>
-
-
-            <div class="rightsec_bigsec">
-
-                <div class="smallPic">
-                    <img src="Anu12.jpeg" alt="" height="150">
-                </div>
-
-                <div class="rightBoxImg">
-                    <img src="Anu12.jpeg" alt="" height="150">
-                </div>
-
-                <div class="rightBox">
-                    <p id="follow">Anushree J</p>
-
-                    <div class="social">
-                        <a href="https://github.com/anushree412" class="github"><i class="fab fa-github fa-lg"></i></a>
-                        <a href="https://www.linkedin.com/in/anushree-jagadeesh1" class="linkedin"><i
-                                class="fab fa-linkedin fa-lg"></i></a>
-                        <a href="https://www.instagram.com/art_archive_412/" class="instagram"><i
-                                class="fab fa-instagram fa-lg"></i></a>
-                    </div>
-
-                    <div class="rightboxSmall">
-
-                        <div class="Intro">
-                            <div class="intro-logo"><i class="fas fa-envelope fa-lg"></i></div>
-                            <div class="Intro-inside">
-                                <div class="IntroTitle">Email: </div>
-                                <div class="IntroContent">anushreej412@gmail.com</div>
-                            </div>
-                        </div>
-
-                        <div class="Intro">
-                            <div class="intro-logo"><i class="fas fa-map-marker-alt fa-lg"></i></div>
-                            <div class="Intro-inside">
-                                <div class="IntroTitle">Location: </div>
-                                <div class="IntroContent">Bengaluru, Karnataka</div>
-                            </div>
-                        </div>
-
-                        <div class="Intro">
-                            <div class="intro-logo"><i class="fas fa-birthday-cake fa-lg"></i></div>
-                            <div class="Intro-inside">
-                                <div class="IntroTitle">Birthday: </div>
-                                <div class="IntroContent">4th December 2002</div>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    <div class="btn">
-                        <button type="submit"><a href="Anushree_resume_updated.pdf" target="_blank">Download CV</a></button>
-
-                    </div>
-
-
-        </section>
+            </section>
+        </div>
         
-        <section class="secondsec">
+            <section class="secondsec" id="about">
+                <iframe src="about.html" frameborder="0" style="width: 100%; height: 100vh;"></iframe>
+            </section>
 
-        </section>
-   
+            <section class="secondsec" id="projects">
+                <iframe src="project.html" frameborder="0" style="width: 100%; height: 100vh;" scrolling="auto"></iframe>
+            </section>
+
+            <!-- <section class="secondsec" id="blog">
+                <iframe src="interest.html" frameborder="0" style="width: 100%; height: 100vh;"></iframe>
+            </section> --> 
+
+            <section class="secondsec" id="contact">
+                <iframe src="services.html" frameborder="0" style="width: 100%; height: 100vh;"></iframe>
+            </section>
+        </div>
+    </main>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>var typed = new Typed('#element', {
+    <script>
+        var typed = new Typed('#element', {
             strings: ['Web Development', 'Art and Craft', 'Java Development'],
             typeSpeed: 50,
-        });</script>
+        });
+    </script>
 
-
-  
-</main>
-
-
-
-
+    <footer>
+        <div class="footer">
+            <div class="ft1">
+                ANAKU
+            </div>
+            <div class="ft2">
+                ©2024, anushreej412@gmail.com, ANAKU
+            </div>
+        </div>
+    </footer>
 </body>
-<footer>
-<div class="footer">
-    <div class="ft1">
-        ANAKU
-    </div>
-
-    <div class="ft2">
-        ©2024, anushreej412@gmail.com, ANAKU
-    </div>
-</div>
-</footer>
-
-
-
-<script>
-    // Function to show loader when form submitted
-    document.getElementById("contactForm").addEventListener("submit", function (event) {
-        event.preventDefault();
-        document.getElementById("loader").style.display = "block";
-        // Simulate form submission delay (3 seconds in this case)
-        setTimeout(function () {
-            document.getElementById("loader").style.display = "none";
-            document.getElementById("statusMessage").innerText = "Form submitted successfully!";
-        }, 3000);
-    });
-</script>
-
 </html>

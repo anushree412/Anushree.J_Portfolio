@@ -9,3 +9,14 @@ document.getElementById("contactForm").addEventListener("submit", function(event
         document.getElementById("statusMessage").innerText = "Email sent to " + email;
     }, 1000);
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const educationContainer = document.getElementById('education-container');
+
+    fetch('education.html')
+        .then(response => response.text())
+        .then(data => {
+            educationContainer.innerHTML = data;
+        })
+        .catch(error => console.error('Error loading education section:', error));
+});
