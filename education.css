@@ -1,6 +1,5 @@
 body {
   font-family: Arial, sans-serif;
-  /* background-color: #000; */
   color: #710f4a;
   margin: 0;
   padding: 0;
@@ -20,8 +19,6 @@ body {
 
 .timeline-container {
   position: relative;
-  margin: 0 auto;
-  padding: 10px 0;
   width: 100%;
 }
 
@@ -38,7 +35,6 @@ body {
 
 .timeline-item {
   position: relative;
-  /* margin-bottom: 40px; */
   width: 50%;
   padding: 20px;
   box-sizing: border-box;
@@ -55,7 +51,7 @@ body {
 
 .timeline-item .timeline-dot {
   position: absolute;
-  top: 5px;
+  top: 20px;
   width: 18px;
   height: 18px;
   background: #710f4a;
@@ -88,16 +84,45 @@ body {
   margin-left: 45px;
 }
 
-.timeline-content h3 {
-  margin-top: 0;
-}
-
-.timeline-content p {
-  margin: 0;
-}
-
 .timeline-content .timeline-date {
   font-size: 18px;
   margin-bottom: 10px;
   color: #f6b8dd;
+}
+
+@media (max-width: 768px) {
+  .timeline-container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeline-container::before {
+    left: 10px;
+    width: 2px;
+  }
+
+  .timeline-item {
+    width: 100%;
+    /* text-align: center; */
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .timeline-item.left,
+  .timeline-item.right {
+    left: 0;
+  }
+
+  .timeline-item .timeline-dot {
+    left: 10px;
+  }
+
+  .timeline-item.left .timeline-content,
+  .timeline-item.right .timeline-content {
+    margin: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
